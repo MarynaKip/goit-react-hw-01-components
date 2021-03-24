@@ -1,5 +1,3 @@
-//import PropTypes from "prop-types";
-
 const Statistic = ({ id, label, percentage }) => {
   return (
     <li key={id} className="item">

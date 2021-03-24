@@ -1,5 +1,6 @@
 import "./Profile.css";
 import Person from "./Person.js";
+import PropTypes from "prop-types";
 
 function Profile({ item }) {
   return (
@@ -14,5 +15,17 @@ function Profile({ item }) {
     />
   );
 }
+
+Profile.propTypes = {
+  item: PropTypes.shape({
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    tag: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
+  }),
+};
 
 export default Profile;
