@@ -1,4 +1,4 @@
-import "./Profile.css";
+
 import Person from "./Person.js";
 import PropTypes from "prop-types";
 

@@ -1,5 +1,4 @@
 import Profile from "./components/Profile/Profile";
-import "./components/Profile/Profile.css";
 import person from "./components/Profile/person.json";
 
 import Statistics from "./components/Statistics/Statistics";
@@ -10,6 +9,8 @@ import friends from "./components/Friends/friends.json";
 
 import TransactionHistory from "./components/Transactions/TransactionHistory";
 import transactions from "./components/Transactions/transactions.json";
+
+import "./styles.css";
 
 function App() {
   return (
